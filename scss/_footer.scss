@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+$mainColor: #393E46;
+$secondaryColor: #222831;
+$keyColor: #F1F6F9;
+$mainFont: 'Open sans', 'sans-serif';
+$fontL: 2em;
+$fontM: 1.5em;
+$fontS: .5em;
+@media screen and (min-width:600px) {
+.posit-footer {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    overflow: hidden;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: $mainColor;
+}
+.footer a{
+    color: black;
+    text-decoration: none;
+}
+.contact-footer {
+    background-color: $keyColor;
+    border-radius: 5px;
+}
+.contact-footer a{
+    width: 4em;
+}
+.fut {
+    bottom: 0;
+    background-color: #393E46;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    border-bottom: #222831 solid 2px;
+}
+.fut a:hover{
+    background-color: grey;
+    width: auto;
+    border-radius: 5px;
+}
+.fut-logo {
+    width: 5em;
+}
+.bt-cnt {
+    background-color: #22283120;
+    text-align: center;
+    align-items: center;
+    border: $keyColor solid 2px;
+    border-radius: 5px;
+    margin: 3em 0;
+    font-size: 2em;
+    width: 10em;
+    padding: .5%;
+    &:hover{
+    background-color: #222831;
+    color: $keyColor;}
+}
+.bt-cnt a:hover{
+    color: $keyColor;
+}
+.rigths{
+    margin: 3% 0%;
+    color: #F1F6F9;
+    font-size: $fontS;
+}
+.navfut{
+    display: flex;
+    flex-direction: column;
+    color: $keyColor;
+    text-align: start;
+    margin-top: 5em;
+    margin-left: -80%;
+    padding-right: 5%;
+    border-right: $keyColor solid 5px;
+    border-radius: 5px;
+  }
+  .navfut a{
+    align-content: flex-start;
+    text-align: center;
+    color: $keyColor;
+    text-align: start;
+    text-decoration: underline;
+    &:hover{
+        background-color: #ffffff20;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    }
+.navmap {
+    font-size: $fontL;
+    text-decoration: none;
+}
+}
+@media screen and (max-width: 600px){
+    .posit-footer{
+        width: 100%;
+        height: 4em;
+        position: relative;
+        bottom: 0%;
+    }
+    .fut{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        background-color: #393E46;
+    }
+    .fut-logo{
+        width: 2em;
+        border: gray solid 1px;
+        border-radius: 15px;
+        margin: 5px;
+        padding: 5px;
+    }
+    .bt-cnt {
+        display: flex;
+        background-color: #222831;
+        color: #F1F6F9;
+        text-align: center;
+        flex-direction: column;
+    }
+    .bt-cnt a{
+        background-color: #F1F6F9;
+        text-decoration: none;
+        text-align: center;
+        align-content: center;
+        margin-bottom: 5em;
+        transition: all 1s ease;
+    &:hover{
+        background-color: #222831;
+        color: white;    }
+    }
+    .navfut{
+        background-color: #393E46;
+        display: flex;
+        flex-direction: column;
+        color: $keyColor;
+        text-align: start;
+        padding: 5%;
+        text-decoration: underline;
+        border-right: $keyColor solid 5px;
+      }
+      .navfut a{
+        align-content: flex-start;
+        text-align: center;
+        color: $keyColor;
+        text-align: start;
+      }  
+
+}

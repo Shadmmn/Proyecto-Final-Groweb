@@ -1,0 +1,64 @@
+$mainColor: #393E46;
+$secondaryColor: #222831;
+$keyColor: #F1F6F9;
+$keyColor20: #F1F6F920;
+$mainFont: 'Open sans', 'sans-serif';
+$fontL: 2em;
+$fontM: 1.5em;
+$fontS: .5em;
+.main-qs{
+    width: 100;
+    margin-top: 5em;
+    padding: 2.5%;
+}
+.header-qs{
+@extend .main-qs;
+color: $mainColor;
+margin-bottom: 20%;
+padding: 5%;
+}
+.header-qs h2{
+    font-size: 2em;
+}
+.cards-qs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 8em;
+}
+.card{
+border-radius: 15px;
+width: 30em;
+height: auto;
+border: $mainColor solid 20px;
+margin: 2em;
+
+}
+.card:hover{
+   border: $secondaryColor solid 20px;
+   -webkit-box-shadow: 18px 76px 241px -29px rgba(0,0,0,0.38);
+-moz-box-shadow: 18px 76px 241px -29px rgba(0,0,0,0.38);
+box-shadow: 18px 76px 241px -29px rgba(0,0,0,0.38);
+}
+.art-nt-img{
+    width: 100%;
+    height: 100%;
+    max-height: 20em;
+    overflow: hidden;
+}
+.art-img{
+width: 100%;
+}
+.art-tit{
+    font-size: $fontM;
+    background-color: #222831;
+    color: $keyColor;
+    margin-top: -8px;
+    padding: 5%;
+}
+.art-text{
+    font-size: 1em;
+    padding: 5%;
+}

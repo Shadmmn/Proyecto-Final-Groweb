@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <meta name="contacto">
+    <title>Contacto | Groweb</title>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html" class="active">Home</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="quienesSomos.html">Quienes Somos</a>
+        <a href="nuestroTrabajo.html">Nuestro trabajo</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+      </div>
+<section  class="hecon">
+      <h2> En Groweb sabemos que el mejor diseño es el que mejor representa a nuestros clientes.
+      </h2></section>
+      <section class="hecon2">
+      <h2>¡No dudes en hacernos llegar tus consultas!</h2></section>
+      <div class="contact">
+          <div class="formulario" >      
+            <h3>¡Contactate con nosotros!</h3>
+                <form action="submeter-formulario.php" method="post">       
+                        <label for="nombre" class="colocar_nombre"><span class="obligatorio"></span>
+                        </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="* Nombre">
+                        <label for="email" class="colocar_email">
+                        <span class="obligatorio"></span>
+                        </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="* Email">
+                        <label for="asunto" class="colocar_asunto">
+                        <span class="obligatorio"></span>
+                        </label>
+                        <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="* Asunto">
+                        <label for="mensaje" class="colocar_mensaje">
+                        <span class="obligatorio"></span>
+                        </label>                     
+                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="* Deja aquí tu comentario..."></textarea>                    
+                        <button type="submit" name="enviar_formulario" id="enviar" class="enva"><p>Enviar</p></button>
+                        <p class="aviso">
+                        <span class="obligatorio">*</span>los campos son obligatorios.
+                        </p>
+                  </form>
+            </div>  
+          </div>
+<footer id="parche" class="posit-footer">
+    <div class="footer">
+        <section class="fut">
+        <a href=""><img class="fut-logo" src="../rsc/igicon.png" alt="logo-ig"></a>
+        <a href=""><img class="fut-logo" src="../rsc/twicon.png" alt="logo-tw"></a>
+        <a href=""><img class="fut-logo" src="../rsc/wpicon.png" alt="logo-wp"></a>
+        </section>
+        <nav class="navfut">
+          <section class="navhead">
+          Navegación
+          </section>
+          <a href="">Home</a>
+          <a href="">Servicios</a>
+          <a href="">Quienes Somos</a>
+          <a href="">Nuestro trabajo</a>
+          <a href="">Contacto</a>
+      </nav>
+        <section class="bt-cnt">
+        <a href="">¡Contactanos!</a>
+        </section>
+    </div>
+</footer>
+    
+</body>
+</html>
