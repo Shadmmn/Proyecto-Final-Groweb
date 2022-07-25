@@ -7,7 +7,7 @@ $keyColor20: #F1F6F920;
 $mainFont: 'Open sans', 'sans-serif';
 $fontL: 2em;
 $fontM: 1.5em;
-$fontS: .5em;
+$fontS: 1em;
 @media screen and (min-width:600px){
 .header-home{
     text-align: center;
@@ -16,14 +16,10 @@ $fontS: .5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 10%;
 }
   .main-home{
     display: flex;
     justify-content: center;
-  }
-  .img-head-sec{
-    padding: 5em;
   }
 .imag-head{
     display: flex;
@@ -31,14 +27,9 @@ $fontS: .5em;
     justify-content: center;
 }
 .sec1 {
-margin-top: 2em;
-}
-.mgb4{
-  margin-bottom: 4em;
-  color: $mainColor;
-  border-bottom: #222831 solid 15px;
-  border-radius: 15px;
-  padding-bottom: 5em;
+margin-top: -15%;
+color: #F1F6F9;
+margin-bottom: 10%;
 }
 .logoimg-home{
   box-sizing: content-box;
@@ -47,30 +38,35 @@ margin-top: 2em;
   justify-content: center;
   align-items: center;
   align-content: center;
-  margin-bottom: 20em;
 }
 .logohm{
   width: 30em;
-  margin-top: -5%;
-  margin-bottom: -10%;
 }
 .aside-hm{
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0% 35%;
-  margin-top: 5em;
   margin-bottom: 5em;
 }
 .art-hm{
-  border-top: #222831 solid 20px;
-  border-radius: 20px;
+  color: $keyColor;
+  background-color: #56687a;
+  border-top: #222831 solid 10px;
+  border-radius: 1px;
   display: flex;
   flex-direction: column;
   text-align: center;
   width: 100%;
+  padding: 10%;
+  margin-top: 2%;
+  font-size: $fontS
+}
+
+.mgb4{
+  @extend .art-hm;
 }
 .fontS{
   font-size: $fontS;
@@ -86,15 +82,12 @@ margin-top: 2em;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 0%;
 }
 .mockup{
   width: 100%;
 }
-.colwh{
-  color: $mainColor;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
+
 }
 @media screen and (max-width:600px) {
   .main-home{
