@@ -18,22 +18,14 @@ $fontS: .5em;
     display: flex;
     flex-direction: column;
     align-items: center; 
-    background-color: $mainColor;
 }
 .footer a{
     color: black;
     text-decoration: none;
 }
-.contact-footer {
-    background-color: $keyColor;
-    border-radius: 5px;
-}
-.contact-footer a{
-    width: 4em;
-}
 .fut {
     bottom: 0;
-    background-color: #393E46;
+    background-color: #393E4620;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -49,62 +41,68 @@ $fontS: .5em;
 .fut-logo {
     width: 5em;
 }
-.bt-cnt {
-    background-color: #22283120;
-    text-align: center;
-    align-items: center;
-    border: $keyColor solid 2px;
-    border-radius: 5px;
-    margin: 3em 0;
-    font-size: 2em;
-    width: 10em;
-    padding: .5%;
-    &:hover{
-    background-color: #222831;
-    color: $keyColor;}
-}
-.bt-cnt a:hover{
-    color: $keyColor;
-}
 .rigths{
     margin: 3% 0%;
-    color: #F1F6F9;
+    color: $mainColor;
     font-size: $fontS;
 }
+.menu-fut{
+width: 100%;
+color: $mainColor;
+padding-bottom: 2%;
+background-color: white;
+}
 .navfut{
+    width: 50%;
     display: flex;
-    flex-direction: column;
-    color: $keyColor;
+    flex-direction: row;
+    color: $mainColor;
     text-align: start;
-    margin-top: 5em;
-    margin-left: -80%;
-    padding-right: 5%;
-    border-right: $keyColor solid 5px;
-    border-radius: 5px;
+    border-radius: 2px;
+    margin-bottom: 5%;    
+    margin-top: 8%;
+    margin-left: 10%;
   }
   .navfut a{
     align-content: flex-start;
     text-align: center;
-    color: $keyColor;
+    color: $mainColor;
     text-align: start;
-    text-decoration: underline;
+    text-decoration: none;
     &:hover{
         background-color: #ffffff20;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
+        text-decoration: underline;
     }
     }
 .navmap {
     font-size: $fontL;
     text-decoration: none;
 }
+.submenu1{
+ display: flex;
+ flex-direction: column;
+ border-right: $mainColor 4px solid;
+ padding-right: 30%;
+ padding-left: 5%
+}
+.submenu2{
+    @extend .submenu1;
+    border: none;
+}
+
 }
 @media screen and (max-width: 600px){
     .posit-footer{
         width: 100%;
         height: 4em;
         position: relative;
+        margin-top: 5%;
         bottom: 0%;
+    }
+    .menu-fut{
+        background-color: white;
     }
     .fut{
         display: flex;
@@ -112,48 +110,38 @@ $fontS: .5em;
         align-items: center;
         flex-direction: row;
         width: 100%;
-        background-color: #393E46;
+        background-color: #393E4620;
     }
     .fut-logo{
-        width: 2em;
+        width: 4em;
         border: gray solid 1px;
         border-radius: 15px;
         margin: 5px;
         padding: 5px;
     }
-    .bt-cnt {
-        display: flex;
-        background-color: #222831;
-        color: #F1F6F9;
-        text-align: center;
-        flex-direction: column;
-    }
-    .bt-cnt a{
-        background-color: #F1F6F9;
-        text-decoration: none;
-        text-align: center;
-        align-content: center;
-        margin-bottom: 5em;
-        transition: all 1s ease;
-    &:hover{
-        background-color: #222831;
-        color: white;    }
-    }
     .navfut{
-        background-color: #393E46;
+        width: 100%;
         display: flex;
         flex-direction: column;
-        color: $keyColor;
-        text-align: start;
-        padding: 5%;
-        text-decoration: underline;
+        color: $mainColor;
         border-right: $keyColor solid 5px;
+        margin-top: 1%;
+        margin-bottom: 5%;
       }
       .navfut a{
         align-content: flex-start;
-        text-align: center;
-        color: $keyColor;
-        text-align: start;
-      }  
-
+        color: $mainColor;
+        text-decoration: none;
+      } 
+      .submenu1{
+        display: flex;
+        padding: 2% 0% 5% 20%;
+        align-items: flex-start;
+        flex-direction: column;
+        border-bottom: $mainColor 2px solid;
+      }
+.rigths{
+    font-size: $fontS;
+    padding-bottom: 10%;
+}
 }

@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 10em; }
+    margin-top: 10%; }
   .main-home {
     display: flex;
     justify-content: center; }
@@ -167,19 +167,13 @@ body {
   .footer {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: #393E46; }
+    align-items: center; }
   .footer a {
     color: black;
     text-decoration: none; }
-  .contact-footer {
-    background-color: #F1F6F9;
-    border-radius: 5px; }
-  .contact-footer a {
-    width: 4em; }
   .fut {
     bottom: 0;
-    background-color: #393E46;
+    background-color: #393E4620;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -192,98 +186,91 @@ body {
     border-radius: 5px; }
   .fut-logo {
     width: 5em; }
-  .bt-cnt {
-    background-color: #22283120;
-    text-align: center;
-    align-items: center;
-    border: #F1F6F9 solid 2px;
-    border-radius: 5px;
-    margin: 3em 0;
-    font-size: 2em;
-    width: 10em;
-    padding: .5%; }
-    .bt-cnt:hover {
-      background-color: #222831;
-      color: #F1F6F9; }
-  .bt-cnt a:hover {
-    color: #F1F6F9; }
   .rigths {
     margin: 3% 0%;
-    color: #F1F6F9;
+    color: #393E46;
     font-size: 0.5em; }
+  .menu-fut {
+    width: 100%;
+    color: #393E46;
+    padding-bottom: 2%;
+    background-color: white; }
   .navfut {
+    width: 50%;
     display: flex;
-    flex-direction: column;
-    color: #F1F6F9;
+    flex-direction: row;
+    color: #393E46;
     text-align: start;
-    margin-top: 5em;
-    margin-left: -80%;
-    padding-right: 5%;
-    border-right: #F1F6F9 solid 5px;
-    border-radius: 5px; }
+    border-radius: 2px;
+    margin-bottom: 5%;
+    margin-top: 8%;
+    margin-left: 10%; }
   .navfut a {
     align-content: flex-start;
     text-align: center;
-    color: #F1F6F9;
+    color: #393E46;
     text-align: start;
-    text-decoration: underline; }
+    text-decoration: none; }
     .navfut a:hover {
       background-color: #ffffff20;
       border-top-right-radius: 5px;
-      border-bottom-right-radius: 5px; }
+      border-bottom-right-radius: 5px;
+      text-decoration: underline; }
   .navmap {
     font-size: 2em;
-    text-decoration: none; } }
+    text-decoration: none; }
+  .submenu1, .submenu2 {
+    display: flex;
+    flex-direction: column;
+    border-right: #393E46 4px solid;
+    padding-right: 30%;
+    padding-left: 5%; }
+  .submenu2 {
+    border: none; } }
 
 @media screen and (max-width: 600px) {
   .posit-footer {
     width: 100%;
     height: 4em;
     position: relative;
+    margin-top: 5%;
     bottom: 0%; }
+  .menu-fut {
+    background-color: white; }
   .fut {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     width: 100%;
-    background-color: #393E46; }
+    background-color: #393E4620; }
   .fut-logo {
-    width: 2em;
+    width: 4em;
     border: gray solid 1px;
     border-radius: 15px;
     margin: 5px;
     padding: 5px; }
-  .bt-cnt {
-    display: flex;
-    background-color: #222831;
-    color: #F1F6F9;
-    text-align: center;
-    flex-direction: column; }
-  .bt-cnt a {
-    background-color: #F1F6F9;
-    text-decoration: none;
-    text-align: center;
-    align-content: center;
-    margin-bottom: 5em;
-    transition: all 1s ease; }
-    .bt-cnt a:hover {
-      background-color: #222831;
-      color: white; }
   .navfut {
-    background-color: #393E46;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    color: #F1F6F9;
-    text-align: start;
-    padding: 5%;
-    text-decoration: underline;
-    border-right: #F1F6F9 solid 5px; }
+    color: #393E46;
+    border-right: #F1F6F9 solid 5px;
+    margin-top: 1%;
+    margin-bottom: 5%; }
   .navfut a {
     align-content: flex-start;
-    text-align: center;
-    color: #F1F6F9;
-    text-align: start; } }
+    color: #393E46;
+    text-decoration: none; }
+  .submenu1, .submenu2 {
+    display: flex;
+    padding: 2% 0% 5% 20%;
+    align-items: flex-start;
+    flex-direction: column;
+    border-bottom: #393E46 2px solid; }
+  .rigths {
+    font-size: 0.5em;
+    padding-bottom: 10%; } }
 
 @media screen and (min-width: 600px) {
   .hh-serv {

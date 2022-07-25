@@ -1,5 +1,7 @@
 $mainColor: #393E46;
 $secondaryColor: #222831;
+$BG: #56687a;
+$block: #9db3c8;
 $keyColor: #F1F6F9;
 $keyColor20: #F1F6F920;
 $mainFont: 'Open sans', 'sans-serif';
@@ -14,7 +16,7 @@ $fontS: .5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 10em;
+    margin-top: 10%;
 }
   .main-home{
     display: flex;
