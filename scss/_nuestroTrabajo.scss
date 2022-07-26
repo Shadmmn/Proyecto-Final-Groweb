@@ -37,6 +37,7 @@ $fontS: 1em;
     align-content: center;
     align-items: center;
     border-radius: 5px;
+    border: $secondaryColor 5px solid;
 }
 .right-nt {
 @extend .left-nt;
@@ -75,11 +76,14 @@ text-align: start;
     text-align: start;
 }
 .tit-mob-nt{
+    text-align: center;
+    width: 100%;
     display: flex;
+    justify-content: center;
     color: $keyColor;
     background-color: $boxBG;
-    text-align: center;
     margin: 2%;
+    border-bottom: $mainColor 4px solid;
 }
 .margins-nt{
     margin-top: 15%;

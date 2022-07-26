@@ -8,7 +8,11 @@ $mainFont: 'Open sans', 'sans-serif';
 $fontL: 2em;
 $fontM: 1.5em;
 $fontS: 1em;
-@media screen and (min-width:600px){
+
+#parche2{
+  width: 100%;
+}
+@media screen and (min-width:400px){
 .header-home{
     text-align: center;
     color: $mainColor;
@@ -67,42 +71,40 @@ margin-bottom: 10%;
   width: 100%;
 }
 }
-@media screen and (max-width:600px) {
-.main-home{
-  width: 100%;
-  color: $mainColor;
-}
-.header-home{
-  width: 100%;
-}
-.mckpimg-home{
-  width: 100%;
-}
-.mockup{
-  width: 100%;
-}
-.sec1 {
-  font-size: $fontS;
-  margin-top: -25%;
-  color: $mainColor;
-}
-.aside-hm{
-  padding: 0%;
-}
-.art-hm{
-  margin-top: 5%;
-  color: $keyColor;
-  background-color: #56687a;
-  border-top: #222831 solid 10px;
-  padding: 5%;
-  text-align:start;
-}
-.mgb4{
-  margin-top: 5%;
-  color: $keyColor;
-  background-color: #56687a;
-  border-top: #222831 solid 10px;
-  padding: 5%;
-  text-align:start;
-}
+@media screen and (max-width:400px) {
+  .main-home{
+    width: 100%;
+    color: $mainColor;
+  }
+  .mockup{
+    width: 100%;
+  }
+  .sec1 {
+    font-size: .8em;
+    margin-top: -30%;
+    color: $mainColor;
+  }
+  .aside-hm{
+    padding: 0%;
+    margin-top: 10%;
+  }
+  .art-hm{
+    margin-top: 5%;
+    color: $keyColor;
+    background-color: #56687a;
+    border-top: #222831 solid 10px;
+    padding: 5%;
+    text-align:start;
+  }
+  .mgb4{
+    margin-top: 5%;
+    color: $keyColor;
+    background-color: #56687a;
+    border-top: #222831 solid 10px;
+    padding: 5%;
+    text-align:start;
+  }
+  #parche2{
+    max-width: 375px;
+  }
 }

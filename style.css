@@ -3,7 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-@media screen and (min-width: 600px) {
+#parche2 {
+  width: 100%; }
+
+@media screen and (min-width: 400px) {
   .header-home {
     text-align: center;
     color: #393E46;
@@ -51,22 +54,19 @@
   .mockup {
     width: 100%; } }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .main-home {
     width: 100%;
     color: #393E46; }
-  .header-home {
-    width: 100%; }
-  .mckpimg-home {
-    width: 100%; }
   .mockup {
     width: 100%; }
   .sec1 {
-    font-size: 1em;
-    margin-top: -25%;
+    font-size: .8em;
+    margin-top: -30%;
     color: #393E46; }
   .aside-hm {
-    padding: 0%; }
+    padding: 0%;
+    margin-top: 10%; }
   .art-hm, .mgb4 {
     margin-top: 5%;
     color: #F1F6F9;
@@ -80,7 +80,9 @@
     background-color: #56687a;
     border-top: #222831 solid 10px;
     padding: 5%;
-    text-align: start; } }
+    text-align: start; }
+  #parche2 {
+    max-width: 375px; } }
 
 body {
   margin: 0%;
@@ -509,7 +511,8 @@ body {
     justify-content: center;
     align-content: center;
     align-items: center;
-    border-radius: 5px; }
+    border-radius: 5px;
+    border: #222831 5px solid; }
   .right-nt {
     text-align: start; }
   .tit-mob-nt {
@@ -541,11 +544,14 @@ body {
     font-size: 1em;
     text-align: start; }
   .tit-mob-nt {
+    text-align: center;
+    width: 100%;
     display: flex;
+    justify-content: center;
     color: #F1F6F9;
     background-color: #56687a;
-    text-align: center;
-    margin: 2%; }
+    margin: 2%;
+    border-bottom: #393E46 4px solid; }
   .margins-nt {
     margin-top: 15%;
     margin-bottom: 15%; } }
