@@ -22,18 +22,19 @@
     flex-grow: 1;
     justify-content: center; }
   .sec1 {
-    margin-top: -15%;
-    color: #F1F6F9;
+    margin-top: 5%;
+    color: #393E46;
     margin-bottom: 10%; }
   .aside-hm {
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 5em; }
+    margin-bottom: 5em;
+    width: 100%; }
   .art-hm, .mgb4 {
+    width: 80%;
     color: #F1F6F9;
     background-color: #56687a;
     border-top: #222831 solid 10px;
@@ -41,7 +42,6 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 100%;
     padding: 10%;
     margin-top: 2%;
     font-size: 1em; }
@@ -62,7 +62,7 @@
     width: 100%; }
   .sec1 {
     font-size: .8em;
-    margin-top: -30%;
+    margin-top: 10%;
     color: #393E46; }
   .aside-hm {
     padding: 0%;
@@ -432,15 +432,30 @@ body {
     margin-top: 10%;
     margin-bottom: 10%; } }
 
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif; }
+
 .main-qs, .header-qs {
   width: 100;
-  margin-top: 5em;
-  padding: 2.5%; }
+  margin-top: 5em; }
 
 .header-qs {
   color: #393E46;
-  margin-bottom: 20%;
-  padding: 5%; }
+  margin-bottom: 15%;
+  padding: 10%; }
+
+.aside-qS {
+  text-align: center;
+  color: #393E46;
+  margin: 5% 0% 15% 0%; }
+
+.aside-qS a {
+  color: #222831;
+  text-decoration: none; }
+
+.aside-qS a:hover {
+  cursor: pointer;
+  text-decoration: underline; }
 
 .header-qs h2 {
   font-size: 2em; }
@@ -456,15 +471,13 @@ body {
 .card {
   border-radius: 15px;
   width: 30em;
+  max-width: 30em;
   height: auto;
   border: #393E46 solid 20px;
   margin: 2em; }
 
 .card:hover {
-  border: #222831 solid 20px;
-  -webkit-box-shadow: 18px 76px 241px -29px rgba(0, 0, 0, 0.38);
-  -moz-box-shadow: 18px 76px 241px -29px rgba(0, 0, 0, 0.38);
-  box-shadow: 18px 76px 241px -29px rgba(0, 0, 0, 0.38); }
+  border: #222831 solid 20px; }
 
 .art-nt-img {
   width: 100%;
@@ -486,6 +499,14 @@ body {
   font-size: 1em;
   padding: 5%; }
 
+.art-text a {
+  text-decoration: none;
+  color: #222831; }
+
+.art-text a:hover {
+  cursor: pointer;
+  text-decoration: underline; }
+
 .head-nt {
   margin: 5% 8% 15% 8%;
   padding: 12%;
@@ -495,6 +516,8 @@ body {
   background-color: #F1F6F9; }
 
 @media screen and (min-width: 600px) {
+  .mobi-car-nT {
+    display: block; }
   .box-nt {
     width: 100%;
     display: flex;
@@ -505,33 +528,42 @@ body {
     gap: 1%; }
   .left-nt, .right-nt {
     color: #F1F6F9;
-    padding: 3%;
-    background-color: #56687a;
+    padding: 5%;
+    background-color: #222831;
+    display: flex;
     text-align: center;
     justify-content: center;
     align-content: center;
     align-items: center;
     border-radius: 5px;
     border: #222831 5px solid; }
+  .left-nt p, .right-nt p {
+    margin: 0%; }
+  .left-nt h2, .right-nt h2 {
+    margin: 0%; }
   .right-nt {
-    text-align: start; }
+    text-align: start;
+    background-color: #222831; }
   .tit-mob-nt {
+    display: none; }
+  .margins-nt {
+    margin-top: 15%;
+    margin-bottom: 15%; }
+  .img-mob-o {
+    display: none; }
+  .art-omob {
     display: none; } }
-
-.margins-nt {
-  margin-top: 15%;
-  margin-bottom: 15%; }
 
 @media screen and (max-width: 600px) {
   .head-nt {
-    margin: 5%;
+    margin: 25% 5% 25% 5%;
     padding: 2%; }
   .box-nt {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #56687a;
-    margin: 4%;
+    background-color: #222831;
+    margin: 1% 1% 10% 1%;
     padding: 2%;
     color: #F1F6F9;
     gap: 1%;
@@ -543,15 +575,15 @@ body {
     padding: 8%;
     font-size: 1em;
     text-align: start; }
-  .tit-mob-nt {
-    text-align: center;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    color: #F1F6F9;
-    background-color: #56687a;
-    margin: 2%;
-    border-bottom: #393E46 4px solid; }
   .margins-nt {
     margin-top: 15%;
-    margin-bottom: 15%; } }
+    margin-bottom: 15%; }
+  .mobi-car-nT {
+    display: none; }
+  .art-omob {
+    display: flex;
+    flex-direction: column;
+    color: #F1F6F9;
+    background-color: #222831; }
+  .img-mob-o {
+    width: 100%; } }

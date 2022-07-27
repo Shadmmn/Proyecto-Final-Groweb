@@ -6,16 +6,32 @@ $mainFont: 'Open sans', 'sans-serif';
 $fontL: 2em;
 $fontM: 1.5em;
 $fontS: .5em;
+body{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
 .main-qs{
     width: 100;
     margin-top: 5em;
-    padding: 2.5%;
 }
 .header-qs{
 @extend .main-qs;
 color: $mainColor;
-margin-bottom: 20%;
-padding: 5%;
+margin-bottom: 15%;
+padding: 10%;
+}
+.aside-qS{
+    text-align: center;
+    color: $mainColor;
+    margin: 5% 0% 15% 0%;
+}
+.aside-qS a{
+    color: $secondaryColor;
+    text-decoration: none;
+}
+.aside-qS a:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 .header-qs h2{
     font-size: 2em;
@@ -31,6 +47,7 @@ padding: 5%;
 .card{
 border-radius: 15px;
 width: 30em;
+max-width: 30em;
 height: auto;
 border: $mainColor solid 20px;
 margin: 2em;
@@ -38,9 +55,6 @@ margin: 2em;
 }
 .card:hover{
    border: $secondaryColor solid 20px;
-   -webkit-box-shadow: 18px 76px 241px -29px rgba(0,0,0,0.38);
--moz-box-shadow: 18px 76px 241px -29px rgba(0,0,0,0.38);
-box-shadow: 18px 76px 241px -29px rgba(0,0,0,0.38);
 }
 .art-nt-img{
     width: 100%;
@@ -61,4 +75,12 @@ width: 100%;
 .art-text{
     font-size: 1em;
     padding: 5%;
+}
+.art-text a{
+    text-decoration: none;
+    color: $secondaryColor;
+}
+.art-text a:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }

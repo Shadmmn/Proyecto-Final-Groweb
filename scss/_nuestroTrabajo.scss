@@ -17,7 +17,9 @@ $fontS: 1em;
     background-color: $keyColor;
 }
 @media screen and (min-width:600px) {
-
+.mobi-car-nT{
+    display: block;
+}
 .box-nt{
     width: 100%;
     display: flex;
@@ -26,12 +28,12 @@ $fontS: 1em;
     flex-wrap: nowrap;
     padding: 2%;
     gap: 1%;
-
 }
 .left-nt{
     color: $keyColor;
-    padding: 3%;
-    background-color: $boxBG;
+    padding: 5%;
+    background-color: $secondaryColor;
+    display: flex;
     text-align: center;
     justify-content: center;
     align-content: center;
@@ -39,28 +41,43 @@ $fontS: 1em;
     border-radius: 5px;
     border: $secondaryColor 5px solid;
 }
+.left-nt p{
+    margin: 0%;
+}
+.left-nt h2{
+    margin: 0%;
+}
 .right-nt {
 @extend .left-nt;
 text-align: start;
+background-color: $secondaryColor;
 }
 .tit-mob-nt{
     display: none;
 }
-}.margins-nt{
+.margins-nt{
     margin-top: 15%;
     margin-bottom: 15%;
 }
+.img-mob-o{
+    display: none;
+}
+.art-omob{
+    display: none;
+}
+
+}
 @media screen and (max-width:600px) {
 .head-nt{
-    margin: 5%;
+    margin: 25% 5% 25% 5%;
     padding: 2%;
 }
 .box-nt{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: $boxBG;
-    margin: 4%;
+    background-color: $secondaryColor;
+    margin: 1% 1% 10% 1%;
     padding: 2%;
     color: $keyColor;
     gap: 1%;
@@ -75,19 +92,21 @@ text-align: start;
     font-size: $fontS;
     text-align: start;
 }
-.tit-mob-nt{
-    text-align: center;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    color: $keyColor;
-    background-color: $boxBG;
-    margin: 2%;
-    border-bottom: $mainColor 4px solid;
-}
 .margins-nt{
     margin-top: 15%;
     margin-bottom: 15%;
+}
+.mobi-car-nT{
+    display: none;
+}
+.art-omob{
+    display: flex;
+    flex-direction: column;
+    color: $keyColor;
+    background-color: $secondaryColor;
+}
+.img-mob-o{
+    width: 100%;
 }
 }
 
