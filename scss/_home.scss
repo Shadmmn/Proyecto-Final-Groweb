@@ -31,9 +31,9 @@ $fontS: 1em;
     justify-content: center;
 }
 .sec1 {
-margin-top: 5%;
-color: $mainColor;
-margin-bottom: 10%;
+  margin-top: 5%;
+  color: $mainColor;
+  margin-bottom: 10%;
 }
 .aside-hm{
   display: flex;
@@ -80,6 +80,7 @@ margin-bottom: 10%;
     width: 100%;
   }
   .sec1 {
+    padding: 5%;
     font-size: .8em;
     margin-top: 10%;
     color: $mainColor;
