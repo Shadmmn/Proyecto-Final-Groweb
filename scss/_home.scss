@@ -47,8 +47,8 @@ $fontS: 1em;
 .art-hm{
   width: 80%;
   color: $keyColor;
-  background-color: #56687a;
-  border-top: #222831 solid 10px;
+  background-color: $secondaryColor;
+  border-top: $mainColor solid 10px;
   border-radius: 1px;
   display: flex;
   flex-direction: column;
@@ -57,6 +57,13 @@ $fontS: 1em;
   margin-top: 2%;
   font-size: $fontS;
 }
+.art-hm:from{
+ border-top: $mainColor solid 10px
+}
+.art-hm:to{
+  border-bottom: $mainColor solid 10px;
+}
+
 .mgb4{
   @extend .art-hm;
 }
@@ -92,8 +99,8 @@ $fontS: 1em;
   .art-hm{
     margin-top: 5%;
     color: $keyColor;
-    background-color: #56687a;
-    border-top: #222831 solid 10px;
+    background-color: $secondaryColor;
+    border-top: $mainColor solid 10px;
     padding: 5%;
     text-align:start;
   }

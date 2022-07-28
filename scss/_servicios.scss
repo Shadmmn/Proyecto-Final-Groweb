@@ -10,17 +10,46 @@ $colores: (
 );
 
 @media screen and (min-width:600px) {
-    .logoimg-home{
-        box-sizing: content-box;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-      }
-      .logohm{
-        width: 30em;
-      }
+.logoimg-home{
+  box-sizing: content-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.logohm{
+  width: 30em;
+}
+.cuadros-serv{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1%;
+  margin: 10% 0 10% 0;
+}
+.box{
+  text-align: center;
+  width: 15em;
+  height: 30em;
+  color: $keyColor;
+  background-color: $secondaryColor;
+  border: $mainColor solid 10px;
+  transition: all 1s ease;
+}
+.box:hover {
+  background-color: $keyColor;
+  color: #222831;
+  border: #22283120 solid 10px;
+}
+
+
+
+
+
+
+
 }
 @media screen and (max-width:600px){
 
