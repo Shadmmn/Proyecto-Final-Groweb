@@ -82,8 +82,8 @@
   .mgb4 {
     margin-top: 5%;
     color: #F1F6F9;
-    background-color: #56687a;
-    border-top: #222831 solid 10px;
+    background-color: #222831;
+    border-top: #393E46 solid 10px;
     padding: 5%;
     text-align: start; }
   #parche2 {
@@ -288,8 +288,7 @@ body {
     flex-direction: column;
     border-bottom: #393E46 2px solid; }
   .rigths {
-    font-size: 0.5em;
-    padding-bottom: 10%; } }
+    font-size: 0.5em; } }
 
 @media screen and (min-width: 600px) {
   .logoimg-home {

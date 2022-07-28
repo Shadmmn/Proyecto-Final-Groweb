@@ -21,7 +21,7 @@ $fontS: 1em;
     flex-direction: column;
     justify-content: center;
 }
-  .main-home{
+.main-home{
     display: flex;
     justify-content: center;
   }
@@ -107,8 +107,8 @@ $fontS: 1em;
   .mgb4{
     margin-top: 5%;
     color: $keyColor;
-    background-color: #56687a;
-    border-top: #222831 solid 10px;
+    background-color: $secondaryColor;
+    border-top: $mainColor solid 10px;
     padding: 5%;
     text-align:start;
   }
