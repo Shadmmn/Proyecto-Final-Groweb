@@ -125,8 +125,6 @@ body {
   top: 0%; }
 
 /*404*/
-/*animaciones*/
-/*animaciones*/
 .topnav {
   overflow: hidden;
   background-color: white;
@@ -291,6 +289,11 @@ body {
     font-size: 0.5em; } }
 
 @media screen and (min-width: 600px) {
+  .sec-serv1 {
+    border-bottom: #222831 solid 30px; }
+  .mainbg {
+    background-color: #393E46;
+    height: 100%; }
   .logoimg-home {
     box-sizing: content-box;
     width: 100%;
@@ -304,21 +307,82 @@ body {
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 1%;
-    margin: 10% 0 10% 0; }
+    gap: 2%;
+    margin: 0%;
+    padding-top: 10%;
+    padding-bottom: 10%; }
+  /*animaciones*/
   .box {
     text-align: center;
-    width: 15em;
-    height: 30em;
+    width: 45%;
     color: #F1F6F9;
-    background-color: #222831;
-    border: #393E46 solid 10px;
-    transition: all 1s ease; }
+    animation: anim 1s linear 0s infinite normal forwards;
+    animation-play-state: paused;
+    margin-bottom: 4%; }
+  @keyframes anim {
+    0% {
+      border-top: #b2d8d8 solid 5px;
+      border-right: #66b2b2 solid 5px;
+      border-bottom: #008080 solid 5px;
+      border-left: #006666 solid 5px; }
+    25% {
+      border-top: #006666 solid 5px;
+      border-right: #b2d8d8 solid 5px;
+      border-bottom: #66b2b2 solid 5px;
+      border-left: #008080 solid 5px; }
+    50% {
+      border-top: #008080 solid 5px;
+      border-right: #006666 solid 5px;
+      border-bottom: #b2d8d8 solid 5px;
+      border-left: #66b2b2 solid 5px; }
+    75% {
+      border-top: #66b2b2 solid 5px;
+      border-right: #008080 solid 5px;
+      border-bottom: #006666 solid 5px;
+      border-left: #b2d8d8 solid 5px; }
+    100% {
+      border-top: #b2d8d8 solid 5px;
+      border-right: #66b2b2 solid 5px;
+      border-bottom: #008080 solid 5px;
+      border-left: #006666 solid 5px; } }
   .box:hover {
+    animation-play-state: running; }
+  /*animaciones*/
+  .tit-serv {
+    background-color: #222831;
+    color: #F1F6F9;
+    padding: 10%;
+    text-align: start;
+    border-bottom: 2px solid #393E46; }
+  .off-ser {
+    display: flex;
+    flex-direction: column;
+    background-color: #222831;
+    color: #F1F6F9;
+    padding: 10%;
+    text-align: start;
+    overflow: hidden; }
+  .h1-serv {
+    margin-top: 10%;
+    color: #393E46;
+    text-align: center; }
+  .smas {
+    text-align: center;
+    width: 4em;
+    border-radius: 5px;
+    background-color: #393E46;
+    width: 10em;
+    transition: all 1 ease;
+    color: #F1F6F9;
+    text-decoration: none; }
+  .smas:hover {
     background-color: #F1F6F9;
-    color: #222831;
-    border: #22283120 solid 10px; } }
+    color: #222831; }
+  .acla {
+    color: #F1F6F9;
+    text-align: start; } }
 
 #parche {
   margin-top: 15%; }

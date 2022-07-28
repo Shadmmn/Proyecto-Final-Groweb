@@ -3,13 +3,21 @@ $mainColor: #393E46;
 $secondaryColor: #222831;
 $keyColor: #F1F6F9;
 $mainFont: 'Open sans', 'sans-serif';
-$colores: (
-    "a": #F7EC09,
-    "b": #3EC70B,
-    "c": #A149FA,
-);
+$a: #b2d8d8;
+$b: #66b2b2;
+$c: #008080;
+$d: #006666;
+$e: #004c4c;
+
 
 @media screen and (min-width:600px) {
+  .sec-serv1{
+    border-bottom: $secondaryColor solid 30px;
+  }
+.mainbg{
+  background-color: $mainColor;
+  height: 100%;
+}
 .logoimg-home{
   box-sizing: content-box;
   width: 100%;
@@ -25,26 +33,97 @@ $colores: (
   width: 100%;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 1%;
-  margin: 10% 0 10% 0;
+  gap: 2%;
+  margin: 0%;
+  padding-top: 10%;
+  padding-bottom: 10%
 }
+/*animaciones*/
 .box{
   text-align: center;
-  width: 15em;
-  height: 30em;
+  width: 45%;
   color: $keyColor;
+  animation: anim 1s linear 0s infinite normal forwards;
+  animation-play-state: paused;
+  margin-bottom: 4%;
+}
+@keyframes anim {
+  0%{
+    border-top:$a solid 5px;
+    border-right:$b solid 5px;
+    border-bottom:$c solid 5px;
+    border-left:$d solid 5px;
+  }
+  25%{
+    border-top:$d solid 5px;
+    border-right:$a solid 5px;
+    border-bottom:$b solid 5px;
+    border-left:$c solid 5px;
+  }
+  50%{
+    border-top:$c solid 5px;
+    border-right:$d solid 5px;
+    border-bottom:$a solid 5px;
+    border-left:$b solid 5px;
+  }
+  75%{
+    border-top:$b solid 5px;
+    border-right:$c solid 5px;
+    border-bottom:$d solid 5px;
+    border-left:$a solid 5px;
+  }
+  100%{
+    border-top:$a solid 5px;
+    border-right:$b solid 5px;
+    border-bottom:$c solid 5px;
+    border-left:$d solid 5px;
+  }
+}
+.box:hover{
+  animation-play-state: running;
+}
+/*animaciones*/
+.tit-serv{
   background-color: $secondaryColor;
-  border: $mainColor solid 10px;
-  transition: all 1s ease;
+  color: $keyColor;
+  padding: 10%;
+  text-align: start;
+  border-bottom: 2px solid $mainColor;
 }
-.box:hover {
+.off-ser{
+  display: flex;
+  flex-direction: column;
+  background-color: $secondaryColor;
+  color: $keyColor;
+  padding: 10%;
+  text-align: start;
+  overflow: hidden;
+}
+.h1-serv{
+  margin-top: 10%;
+  color: $mainColor;
+  text-align: center;
+}
+.smas{
+  text-align: center;
+  width: 4em;
+  border-radius: 5px;
+  background-color: #393E46;
+  width: 10em;
+  transition: all 1 ease;
+  color: $keyColor;
+  text-decoration: none;
+}
+.smas:hover{
   background-color: $keyColor;
-  color: #222831;
-  border: #22283120 solid 10px;
+  color: $secondaryColor;
 }
-
-
+.acla{
+  color: $keyColor;
+  text-align: start;
+}
 
 
 
