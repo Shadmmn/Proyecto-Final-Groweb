@@ -9,10 +9,7 @@ $fontL: 2em;
 $fontM: 1.5em;
 $fontS: 1em;
 
-#parche2{
-  width: 100%;
-}
-@media screen and (min-width:400px){
+@media screen and (min-width:600px){
 .header-home{
     text-align: center;
     color: $mainColor;
@@ -78,7 +75,7 @@ $fontS: 1em;
   width: 100%;
 }
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:600px) {
   .main-home{
     width: 100%;
     color: $mainColor;
@@ -93,14 +90,16 @@ $fontS: 1em;
     color: $mainColor;
   }
   .aside-hm{
-    padding: 0%;
+    padding: 4%;
     margin-top: 10%;
+
   }
   .art-hm{
     margin-top: 5%;
     color: $keyColor;
     background-color: $secondaryColor;
     border-top: $mainColor solid 10px;
+    border-radius: 5px;
     padding: 5%;
     text-align:start;
   }
