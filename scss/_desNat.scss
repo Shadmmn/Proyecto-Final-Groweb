@@ -13,21 +13,21 @@ $e: #004c4c;
 .bodDN{
     background-color: $secondaryColor;
     color: $keyColor;
-    margin: 0% 0% 20% 0%;
+    margin: 0%;
 }
 .tit-dn{
     text-align: start;
-    padding: 10% 10% 10% 5%;
+    padding: 5% 10%;
     border-bottom: $keyColor solid 2px;
 }
 .text-dn{
     text-align: start;
-    padding: 5%;
+    padding: 0% 5%;
     display: flex;
     justify-content: space-between;
 }
 .art-text-dn{
-    padding: 5%;
+    padding: 2% 5%;
 }
 .boxes-dn{
     display: flex;
@@ -35,47 +35,41 @@ $e: #004c4c;
     flex-grow: 1;
     justify-content: space-evenly;
     gap: 2%;
-    padding-bottom: 15%;
+    padding: 15% 0;
 }
-.box-dn{
-    border: $e solid 5px;
-    padding: 8%;
-    transition: all .5s ease ;
+
+.steps-dn{
+  background-color: $mainColor;
+  text-align: start;
+  display: flex;
+  justify-content: start;
+  width: 100%;
 }
-.box-dn:hover{
-    animation: anim 1s linear 0s infinite normal forwards;
-    animation-play-state: running;
+.list-steps-dn{
+  display: flex;
+  flex-direction: column;
+  padding: 0% 15%;
+  border-right: $keyColor solid 2px;
 }
-@keyframes anim {
-    0%{
-      border-top:$a solid 5px;
-      border-right:$b solid 5px;
-      border-bottom:$c solid 5px;
-      border-left:$d solid 5px;
-    }
-    25%{
-      border-top:$d solid 5px;
-      border-right:$a solid 5px;
-      border-bottom:$b solid 5px;
-      border-left:$c solid 5px;
-    }
-    50%{
-      border-top:$c solid 5px;
-      border-right:$d solid 5px;
-      border-bottom:$a solid 5px;
-      border-left:$b solid 5px;
-    }
-    75%{
-      border-top:$b solid 5px;
-      border-right:$c solid 5px;
-      border-bottom:$d solid 5px;
-      border-left:$a solid 5px;
-    }
-    100%{
-      border-top:$a solid 5px;
-      border-right:$b solid 5px;
-      border-bottom:$c solid 5px;
-      border-left:$d solid 5px;
-    }
-  }
+.list-steps-dn li{
+  margin: 5% 0;
 }
+.detalle-dn-st{
+  display: flex;
+  flex-direction: column;
+
+}
+.detalle-dn{
+  text-align: start;
+  padding: 2% 10%;
+  border-bottom: $keyColor solid 1px;
+}
+.detalle-dn h3{
+  text-decoration: underline solid 2px $c;
+}
+.final-dn{
+  color: $keyColor;
+}
+}
+
+

@@ -111,8 +111,7 @@ body {
     width: 100%;
     font-size: 3em;
     font-weight: 800;
-    color: #F1F6F9;
-    margin-bottom: 2%; }
+    color: #F1F6F9; }
   .let-vas {
     display: flex;
     flex-direction: column;
@@ -124,11 +123,12 @@ body {
 
 @media screen and (max-width: 600px) {
   #bg404 {
-    background-color: #F1F6F9; }
+    background-color: #F1F6F9;
+    margin: 0%; }
   .error {
-    padding: 20%; }
+    padding: 50%;
+    margin-bottom: 0%; }
   .let-vas {
-    background-color: #393E46;
     animation: anim 1s linear 0s infinite normal forwards;
     animation-play-state: running;
     padding: 10%;
@@ -787,55 +787,46 @@ body {
   .bodDN {
     background-color: #222831;
     color: #F1F6F9;
-    margin: 0% 0% 20% 0%; }
+    margin: 0%; }
   .tit-dn {
     text-align: start;
-    padding: 10% 10% 10% 5%;
+    padding: 5% 10%;
     border-bottom: #F1F6F9 solid 2px; }
   .text-dn {
     text-align: start;
-    padding: 5%;
+    padding: 0% 5%;
     display: flex;
     justify-content: space-between; }
   .art-text-dn {
-    padding: 5%; }
+    padding: 2% 5%; }
   .boxes-dn {
     display: flex;
     flex-direction: row;
     flex-grow: 1;
     justify-content: space-evenly;
     gap: 2%;
-    padding-bottom: 15%; }
-  .box-dn {
-    border: #004c4c solid 5px;
-    padding: 8%;
-    transition: all .5s ease; }
-  .box-dn:hover {
-    animation: anim 1s linear 0s infinite normal forwards;
-    animation-play-state: running; }
-  @keyframes anim {
-    0% {
-      border-top: #b2d8d8 solid 5px;
-      border-right: #66b2b2 solid 5px;
-      border-bottom: #008080 solid 5px;
-      border-left: #006666 solid 5px; }
-    25% {
-      border-top: #006666 solid 5px;
-      border-right: #b2d8d8 solid 5px;
-      border-bottom: #66b2b2 solid 5px;
-      border-left: #008080 solid 5px; }
-    50% {
-      border-top: #008080 solid 5px;
-      border-right: #006666 solid 5px;
-      border-bottom: #b2d8d8 solid 5px;
-      border-left: #66b2b2 solid 5px; }
-    75% {
-      border-top: #66b2b2 solid 5px;
-      border-right: #008080 solid 5px;
-      border-bottom: #006666 solid 5px;
-      border-left: #b2d8d8 solid 5px; }
-    100% {
-      border-top: #b2d8d8 solid 5px;
-      border-right: #66b2b2 solid 5px;
-      border-bottom: #008080 solid 5px;
-      border-left: #006666 solid 5px; } } }
+    padding: 15% 0; }
+  .steps-dn {
+    background-color: #393E46;
+    text-align: start;
+    display: flex;
+    justify-content: start;
+    width: 100%; }
+  .list-steps-dn {
+    display: flex;
+    flex-direction: column;
+    padding: 0% 15%;
+    border-right: #F1F6F9 solid 2px; }
+  .list-steps-dn li {
+    margin: 5% 0; }
+  .detalle-dn-st {
+    display: flex;
+    flex-direction: column; }
+  .detalle-dn {
+    text-align: start;
+    padding: 2% 10%;
+    border-bottom: #F1F6F9 solid 1px; }
+  .detalle-dn h3 {
+    text-decoration: underline solid 2px #008080; }
+  .final-dn {
+    color: #F1F6F9; } }
