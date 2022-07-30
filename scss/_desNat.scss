@@ -54,6 +54,13 @@ $e: #004c4c;
    li{
   margin: 5% 0;
    }
+   li a{
+    color: $keyColor;
+    text-decoration: none;
+   }
+   li a:hover{
+    text-decoration: underline 2px solid $c;
+   }
   }
 .detalle-dn-st{
   display: flex;
@@ -61,7 +68,7 @@ $e: #004c4c;
 }
 .detalle-dn{
   text-align: start;
-  padding: 2% 10%;
+  padding: 5% 10%;
   border-bottom: $keyColor solid 1px;
 }
 .final-dn{
@@ -95,7 +102,6 @@ $e: #004c4c;
   padding: 2%;
   border-radius: 5px;
   background-color: $secondaryColor;
-  text-decoration: underline solid 2px $c;
 }
 .mod-pago-2{
   text-align: start;
@@ -175,6 +181,15 @@ text-align: start;
 display: flex;
 justify-content: start;
 width: 100%;
+}
+.list-steps-dn{
+    li a{
+      color: $keyColor;
+      text-decoration: none;
+     }
+     li a:hover{
+      text-decoration: underline 2px solid $c;
+     }
 }
 .art-text-dn-mob{
  display: flex;

@@ -21,43 +21,34 @@ $fontS: 1em;
     display: block;
 }
 .box-nt{
+    background-color: $secondaryColor;
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-grow: 1;
     flex-wrap: nowrap;
-    padding: 2%;
     gap: 1%;
 }
 .left-nt{
     color: $keyColor;
     padding: 5%;
-    background-color: $secondaryColor;
     display: flex;
     text-align: center;
     justify-content: center;
     align-content: center;
     align-items: center;
-    border-radius: 5px;
     border: $secondaryColor 5px solid;
-}
-.left-nt p{
-    margin: 0%;
-}
-.left-nt h2{
-    margin: 0%;
 }
 .right-nt {
 @extend .left-nt;
 text-align: start;
-background-color: $secondaryColor;
+background-color: $mainColor;
 }
 .tit-mob-nt{
     display: none;
 }
 .margins-nt{
     margin-top: 15%;
-    margin-bottom: 15%;
 }
 .img-mob-o{
     display: none;
@@ -77,18 +68,16 @@ background-color: $secondaryColor;
     align-items: center;
     flex-direction: column;
     background-color: $secondaryColor;
-    margin: 1% 1% 10% 1%;
-    padding: 2%;
+    margin: 1% 0% 10% 0%;
     color: $keyColor;
     gap: 1%;
-    border-radius: 10px;
+    padding: 8%;
 }
 .left-nt{
     display: none;
 }
 .right-nt{
     display: inline;
-    padding: 8%;
     font-size: $fontS;
     text-align: start;
 }

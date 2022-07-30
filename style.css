@@ -714,36 +714,29 @@ body {
   .mobi-car-nT {
     display: block; }
   .box-nt {
+    background-color: #222831;
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-grow: 1;
     flex-wrap: nowrap;
-    padding: 2%;
     gap: 1%; }
   .left-nt, .right-nt {
     color: #F1F6F9;
     padding: 5%;
-    background-color: #222831;
     display: flex;
     text-align: center;
     justify-content: center;
     align-content: center;
     align-items: center;
-    border-radius: 5px;
     border: #222831 5px solid; }
-  .left-nt p, .right-nt p {
-    margin: 0%; }
-  .left-nt h2, .right-nt h2 {
-    margin: 0%; }
   .right-nt {
     text-align: start;
-    background-color: #222831; }
+    background-color: #393E46; }
   .tit-mob-nt {
     display: none; }
   .margins-nt {
-    margin-top: 15%;
-    margin-bottom: 15%; }
+    margin-top: 15%; }
   .img-mob-o {
     display: none; }
   .art-omob {
@@ -758,16 +751,14 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #222831;
-    margin: 1% 1% 10% 1%;
-    padding: 2%;
+    margin: 1% 0% 10% 0%;
     color: #F1F6F9;
     gap: 1%;
-    border-radius: 10px; }
+    padding: 8%; }
   .left-nt, .right-nt {
     display: none; }
   .right-nt {
     display: inline;
-    padding: 8%;
     font-size: 1em;
     text-align: start; }
   .margins-nt {
@@ -820,12 +811,17 @@ body {
     border-right: #F1F6F9 solid 2px; }
     .list-steps-dn li {
       margin: 5% 0; }
+    .list-steps-dn li a {
+      color: #F1F6F9;
+      text-decoration: none; }
+    .list-steps-dn li a:hover {
+      text-decoration: underline 2px solid #008080; }
   .detalle-dn-st {
     display: flex;
     flex-direction: column; }
   .detalle-dn {
     text-align: start;
-    padding: 2% 10%;
+    padding: 5% 10%;
     border-bottom: #F1F6F9 solid 1px; }
   .final-dn {
     color: #F1F6F9;
@@ -852,8 +848,7 @@ body {
   .mod-pago {
     padding: 2%;
     border-radius: 5px;
-    background-color: #222831;
-    text-decoration: underline solid 2px #008080; }
+    background-color: #222831; }
   .mod-pago-2 {
     text-align: start;
     padding: 5%; }
@@ -916,6 +911,11 @@ body {
     display: flex;
     justify-content: start;
     width: 100%; }
+  .list-steps-dn li a {
+    color: #F1F6F9;
+    text-decoration: none; }
+  .list-steps-dn li a:hover {
+    text-decoration: underline 2px solid #008080; }
   .art-text-dn-mob {
     display: flex;
     justify-content: center;
