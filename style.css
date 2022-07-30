@@ -818,8 +818,8 @@ body {
     flex-direction: column;
     padding: 0% 15%;
     border-right: #F1F6F9 solid 2px; }
-  .list-steps-dn li {
-    margin: 5% 0; }
+    .list-steps-dn li {
+      margin: 5% 0; }
   .detalle-dn-st {
     display: flex;
     flex-direction: column; }
@@ -827,8 +827,6 @@ body {
     text-align: start;
     padding: 2% 10%;
     border-bottom: #F1F6F9 solid 1px; }
-  .detalle-dn h3 {
-    text-decoration: underline solid 2px #008080; }
   .final-dn {
     color: #F1F6F9;
     background-color: #393E46;
@@ -929,8 +927,6 @@ body {
     padding: 5%;
     text-align: start;
     border-bottom: 1px solid #F1F6F9; }
-    .detalle-dn h3 {
-      text-decoration: underline 2px #008080 solid; }
   .final-dn {
     text-align: start;
     padding: 5%; }
@@ -947,11 +943,11 @@ body {
     display: flex;
     flex-direction: column;
     padding: 2%; }
-    .precio-dn button {
-      background-color: #393E46;
-      color: #F1F6F9;
-      width: 100%;
-      padding: 5%;
-      animation: anim 1s linear 0s infinite normal forwards; }
-    .precio-dn button:focus {
-      background-color: #222831; } }
+  button {
+    background-color: #393E46;
+    color: #F1F6F9;
+    width: 100%;
+    padding: 5%;
+    animation: anim 1s linear 0s infinite normal forwards; }
+  button:focus {
+    background-color: #222831; } }

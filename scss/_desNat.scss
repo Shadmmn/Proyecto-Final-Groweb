@@ -51,22 +51,18 @@ $e: #004c4c;
   flex-direction: column;
   padding: 0% 15%;
   border-right: $keyColor solid 2px;
-}
-.list-steps-dn li{
+   li{
   margin: 5% 0;
-}
+   }
+  }
 .detalle-dn-st{
   display: flex;
   flex-direction: column;
-
 }
 .detalle-dn{
   text-align: start;
   padding: 2% 10%;
   border-bottom: $keyColor solid 1px;
-}
-.detalle-dn h3{
-  text-decoration: underline solid 2px $c;
 }
 .final-dn{
   color: $keyColor;
@@ -193,9 +189,6 @@ width: 100%;
   padding: 5%;
   text-align: start;
   border-bottom: 1px solid $keyColor;
-  h3{
-    text-decoration: underline 2px $c solid;
-  }
 }
 .final-dn{
   text-align: start;
@@ -218,16 +211,15 @@ width: 100%;
   display: flex;
   flex-direction: column;
   padding: 2%;
-  button{
+}
+button{
     background-color: $mainColor;
     color: $keyColor;
     width: 100%;
     padding: 5%;
     animation: anim 1s linear 0s infinite normal forwards;
-  }
-  button:focus{
+}
+    button:focus{
     background-color: $secondaryColor;
-  }
-  
 }
 }
