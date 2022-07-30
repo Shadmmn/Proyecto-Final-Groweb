@@ -8,8 +8,6 @@ $b: #66b2b2;
 $c: #008080;
 $d: #006666;
 $e: #004c4c;
-
-
 @media screen and (min-width:600px) {
   .sec-serv1{
     border-bottom: $secondaryColor solid 30px;
@@ -124,12 +122,52 @@ $e: #004c4c;
   color: $keyColor;
   text-align: start;
 }
-
-
-
-
-
 }
 @media screen and (max-width:600px){
+.h1-serv{
+padding: 15%;
+color: $mainColor;
+margin: 10% 0% -25% 0%;
+font-size: 1.2em;
+}
+.box{
+ background-color: $secondaryColor;
+ margin: 3%;
+ border-radius: 15px;
+ animation: anim 1s linear 0s infinite normal forwards;
+ 
+}
+.cuadros-serv{
+  border-top: $secondaryColor solid 25px;
+  background-color: $mainColor;
+  padding: 5%;
+}
+.tit-serv{
+  border-bottom: $mainColor solid 4px;
+  color: $keyColor;
+  padding: 10%;
+  text-align: start;
+}
+.off-ser{
+  color: $keyColor;
+  padding: 10%;
+  text-align: start;
+}
+.smas{
+  padding: 2%;
+  width: 4em;
+  height: 2em;
+  background-color: $mainColor;
+  color: $keyColor;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.acla{
+  font-size: 1em;
+  color: $keyColor;
+  text-align: start;
+  padding: 15%;
+}
+
 
 }

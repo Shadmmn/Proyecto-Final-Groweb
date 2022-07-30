@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+$mainColor: #393E46;
+$secondaryColor: #222831;
+$keyColor: #F1F6F9;
+$mainFont: 'Open sans', 'sans-serif';
+$a: #b2d8d8;
+$b: #66b2b2;
+$c: #008080;
+$d: #006666;
+$e: #004c4c;
+
+@media screen and (min-width:600px) {
+.bodDN{
+    background-color: $secondaryColor;
+    color: $keyColor;
+    margin: 0% 0% 20% 0%;
+}
+.tit-dn{
+    text-align: start;
+    padding: 10% 10% 10% 5%;
+    border-bottom: $keyColor solid 2px;
+}
+.text-dn{
+    text-align: start;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.art-text-dn{
+    padding: 5%;
+}
+.boxes-dn{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    gap: 2%;
+    padding-bottom: 15%;
+}
+.box-dn{
+    border: $e solid 5px;
+    padding: 8%;
+    transition: all .5s ease ;
+}
+.box-dn:hover{
+    animation: anim 1s linear 0s infinite normal forwards;
+    animation-play-state: running;
+}
+@keyframes anim {
+    0%{
+      border-top:$a solid 5px;
+      border-right:$b solid 5px;
+      border-bottom:$c solid 5px;
+      border-left:$d solid 5px;
+    }
+    25%{
+      border-top:$d solid 5px;
+      border-right:$a solid 5px;
+      border-bottom:$b solid 5px;
+      border-left:$c solid 5px;
+    }
+    50%{
+      border-top:$c solid 5px;
+      border-right:$d solid 5px;
+      border-bottom:$a solid 5px;
+      border-left:$b solid 5px;
+    }
+    75%{
+      border-top:$b solid 5px;
+      border-right:$c solid 5px;
+      border-bottom:$d solid 5px;
+      border-left:$a solid 5px;
+    }
+    100%{
+      border-top:$a solid 5px;
+      border-right:$b solid 5px;
+      border-bottom:$c solid 5px;
+      border-left:$d solid 5px;
+    }
+  }
+}
