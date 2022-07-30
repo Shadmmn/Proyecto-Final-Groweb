@@ -126,9 +126,10 @@ body {
     background-color: #F1F6F9;
     margin: 0%; }
   .error {
-    padding: 50%;
+    padding: 5%;
     margin-bottom: 0%; }
   .let-vas {
+    background-color: #222831;
     animation: anim 1s linear 0s infinite normal forwards;
     animation-play-state: running;
     padding: 10%;
@@ -288,7 +289,6 @@ body {
     width: 100%;
     height: 4em;
     position: relative;
-    margin-top: 5%;
     bottom: 0%; }
   .menu-fut {
     background-color: white; }
@@ -798,7 +798,8 @@ body {
     display: flex;
     justify-content: space-between; }
   .art-text-dn {
-    padding: 2% 5%; }
+    padding: 2% 5%;
+    width: 40%; }
   .boxes-dn {
     display: flex;
     flex-direction: row;
@@ -829,4 +830,126 @@ body {
   .detalle-dn h3 {
     text-decoration: underline solid 2px #008080; }
   .final-dn {
-    color: #F1F6F9; } }
+    color: #F1F6F9;
+    background-color: #393E46;
+    padding: 2%; }
+    .final-dn a {
+      text-decoration: none;
+      color: #F1F6F9;
+      border-radius: 5px;
+      background-color: #22283150; }
+    .final-dn a:hover {
+      text-decoration: underline solid 2px #008080;
+      cursor: pointer; }
+  .precio-dn {
+    background-color: #222831;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    text-align: start; }
+  .precio-box, .precio-box-but {
+    padding: 5%;
+    border-right: 1px solid #F1F6F9; }
+  .mod-pago {
+    padding: 2%;
+    border-radius: 5px;
+    background-color: #222831;
+    text-decoration: underline solid 2px #008080; }
+  .mod-pago-2 {
+    text-align: start;
+    padding: 5%; }
+  .precio-box-but {
+    border: 0px; }
+    .precio-box-but button {
+      color: #F1F6F9;
+      height: 100%;
+      background-color: #222831;
+      animation: anim 1s linear 0s infinite normal forwards; }
+    .precio-box-but button:hover {
+      background-color: #393E46;
+      text-decoration: underline solid 2px #008080; }
+  @keyframes anim {
+    0% {
+      border-top: #b2d8d8 solid 5px;
+      border-right: #66b2b2 solid 5px;
+      border-bottom: #008080 solid 5px;
+      border-left: #006666 solid 5px; }
+    25% {
+      border-top: #006666 solid 5px;
+      border-right: #b2d8d8 solid 5px;
+      border-bottom: #66b2b2 solid 5px;
+      border-left: #008080 solid 5px; }
+    50% {
+      border-top: #008080 solid 5px;
+      border-right: #006666 solid 5px;
+      border-bottom: #b2d8d8 solid 5px;
+      border-left: #66b2b2 solid 5px; }
+    75% {
+      border-top: #66b2b2 solid 5px;
+      border-right: #008080 solid 5px;
+      border-bottom: #006666 solid 5px;
+      border-left: #b2d8d8 solid 5px; }
+    100% {
+      border-top: #b2d8d8 solid 5px;
+      border-right: #66b2b2 solid 5px;
+      border-bottom: #008080 solid 5px;
+      border-left: #006666 solid 5px; } }
+  .art-text-dn-mob {
+    display: none; } }
+
+@media screen and (max-width: 600px) {
+  .bodDN {
+    background-color: #222831;
+    color: #F1F6F9;
+    margin: 0%; }
+  .tit-dn {
+    text-align: start;
+    padding: 5% 5%;
+    border-bottom: #F1F6F9 solid 2px; }
+  .text-dn {
+    display: none; }
+  .art-text-dn {
+    padding: 2% 1%;
+    width: 40%; }
+  .steps-dn {
+    background-color: #393E46;
+    text-align: start;
+    display: flex;
+    justify-content: start;
+    width: 100%; }
+  .art-text-dn-mob {
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    padding: 10% 5%; }
+  .detalle-dn-st {
+    text-align: start; }
+  .detalle-dn {
+    padding: 5%;
+    text-align: start;
+    border-bottom: 1px solid #F1F6F9; }
+  .final-dn {
+    text-align: start;
+    padding: 5%; }
+  .mod-pago {
+    padding: 2%;
+    border-radius: 5px;
+    background-color: #393E46;
+    text-align: center; }
+  .mod-pago-2 a {
+    color: #F1F6F9;
+    text-decoration: underline 2px #008080 solid;
+    cursor: pointer; }
+  .precio-dn {
+    display: flex;
+    flex-direction: column;
+    padding: 2%; }
+    .precio-dn button {
+      background-color: #393E46;
+      color: #F1F6F9;
+      width: 100%;
+      padding: 5%;
+      animation: anim 1s linear 0s infinite normal forwards; }
+    .precio-dn button:focus {
+      background-color: #222831; } }

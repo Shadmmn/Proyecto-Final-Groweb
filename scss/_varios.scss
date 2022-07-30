@@ -54,10 +54,12 @@ background-color: $keyColor;
 margin: 0%;
 }
 .error{
-padding: 50%;
+padding: 5%;
 margin-bottom: 0%;
+
 }
 .let-vas{
+  background-color: $secondaryColor;
     animation: anim 1s linear 0s infinite normal forwards;
     animation-play-state:running;
     padding: 10%;

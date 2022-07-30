@@ -28,6 +28,7 @@ $e: #004c4c;
 }
 .art-text-dn{
     padding: 2% 5%;
+    width: 40%;
 }
 .boxes-dn{
     display: flex;
@@ -69,7 +70,161 @@ $e: #004c4c;
 }
 .final-dn{
   color: $keyColor;
+  background-color: $mainColor;
+  a {
+    text-decoration: none;
+    color: $keyColor;
+    border-radius: 5px;
+    background-color: #22283150;
+  }
+  a:hover{
+    text-decoration: underline solid 2px $c;
+    cursor: pointer;
+  }
+  padding: 2%;
+}
+.precio-dn{
+  background-color: $secondaryColor;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+  text-align: start;
+}
+.precio-box{
+  padding: 5%;
+  border-right: 1px solid $keyColor;
+}
+.mod-pago{
+  padding: 2%;
+  border-radius: 5px;
+  background-color: $secondaryColor;
+  text-decoration: underline solid 2px $c;
+}
+.mod-pago-2{
+  text-align: start;
+  padding: 5%;
+}
+.precio-box-but{
+  @extend .precio-box;
+  border: 0px;
+  button{
+    color: $keyColor;
+    height: 100%;
+    background-color: $secondaryColor;
+    animation: anim 1s linear 0s infinite normal forwards;
+  }
+  button:hover{
+    background-color: $mainColor;
+    text-decoration: underline solid 2px $c;
+  }
+}
+@keyframes anim {
+0%{
+  border-top:$a solid 5px;
+  border-right:$b solid 5px;
+  border-bottom:$c solid 5px;
+  border-left:$d solid 5px;
+}
+25%{
+  border-top:$d solid 5px;
+  border-right:$a solid 5px;
+  border-bottom:$b solid 5px;
+  border-left:$c solid 5px;
+}
+50%{
+  border-top:$c solid 5px;
+  border-right:$d solid 5px;
+  border-bottom:$a solid 5px;
+  border-left:$b solid 5px;
+}
+75%{
+  border-top:$b solid 5px;
+  border-right:$c solid 5px;
+  border-bottom:$d solid 5px;
+  border-left:$a solid 5px;
+}
+100%{
+  border-top:$a solid 5px;
+  border-right:$b solid 5px;
+  border-bottom:$c solid 5px;
+  border-left:$d solid 5px;
 }
 }
-
-
+.art-text-dn-mob{
+  display: none;
+}
+}
+@media screen and (max-width:600px) {
+.bodDN{
+  background-color: $secondaryColor;
+  color: $keyColor;
+  margin: 0%;
+}
+.tit-dn{
+  text-align: start;
+  padding: 5% 5%;
+  border-bottom: $keyColor solid 2px;
+}
+.text-dn{
+display: none;
+}
+.art-text-dn{
+  padding: 2% 1%;
+  width: 40%;
+}
+.steps-dn{
+background-color: $mainColor;
+text-align: start;
+display: flex;
+justify-content: start;
+width: 100%;
+}
+.art-text-dn-mob{
+ display: flex;
+ justify-content: center;
+ text-align: start;
+ padding: 10% 5%;
+}
+.detalle-dn-st{
+  text-align: start;
+}
+.detalle-dn{
+  padding: 5%;
+  text-align: start;
+  border-bottom: 1px solid $keyColor;
+}
+.final-dn{
+  text-align: start;
+  padding: 5%;
+}
+.mod-pago{
+  padding: 2%;
+  border-radius: 5px;
+  background-color: $mainColor;
+  text-align: center;
+}
+.mod-pago-2{
+  a{
+    color: $keyColor;
+    text-decoration: underline 2px $c solid;
+    cursor: pointer;
+  }
+}
+.precio-dn{
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  button{
+    background-color: $mainColor;
+    color: $keyColor;
+    width: 100%;
+    padding: 5%;
+    animation: anim 1s linear 0s infinite normal forwards;
+  }
+  button:focus{
+    background-color: $secondaryColor;
+  }
+  
+}
+}
