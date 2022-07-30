@@ -929,6 +929,8 @@ body {
     padding: 5%;
     text-align: start;
     border-bottom: 1px solid #F1F6F9; }
+    .detalle-dn h3 {
+      text-decoration: underline 2px #008080 solid; }
   .final-dn {
     text-align: start;
     padding: 5%; }
