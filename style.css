@@ -638,10 +638,9 @@ body {
     .header-qs h2 {
       font-size: 2em; }
   .aside-qS {
-    padding: 0% 15%;
+    padding: 5% 15%;
     text-align: center;
-    color: #393E46;
-    margin: 5% 0% 20% 0%; }
+    color: #393E46; }
     .aside-qS a {
       color: #222831;
       text-decoration: none;
