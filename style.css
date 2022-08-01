@@ -29,13 +29,13 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 5em;
-    width: 100%; }
+    width: 100%;
+    padding-bottom: 10%;
+    background-color: #393E46; }
   .art-hm, .mgb4 {
     width: 80%;
     color: #F1F6F9;
     background-color: #222831;
-    border-top: #393E46 solid 10px;
     border-radius: 1px;
     display: flex;
     flex-direction: column;
@@ -224,24 +224,24 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .footer a {
-    color: black;
-    text-decoration: none; }
   .fut {
     bottom: 0;
+    background-color: #22283115;
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-grow: 1;
-    justify-content: space-between; }
+    justify-content: space-evenly;
+    border-bottom: #222831 solid 2px; }
     .fut a {
-      margin: 0% 15%; }
-    .fut a:hover {
-      width: auto;
-      border-radius: 5px; }
-    .fut img:hover {
-      background-color: #393E4620;
-      border-radius: 10px; }
+      width: 100%;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      padding: 5px 0; }
+  .fut a:hover {
+    border-radius: 2px;
+    background-color: #22283120; }
   .fut-logo {
     width: 5em; }
   .rigths {
@@ -298,9 +298,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10% 4%;
     flex-direction: row;
-    width: 100%; }
+    width: 100%;
+    background-color: #393E4620; }
   .fut-logo {
     width: 4em;
     border: gray solid 1px;

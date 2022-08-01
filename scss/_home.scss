@@ -38,14 +38,14 @@ $fontS: 1em;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-bottom: 5em;
   width: 100%;
+  padding-bottom: 10%;
+  background-color: $mainColor;
 }
 .art-hm{
   width: 80%;
   color: $keyColor;
   background-color: $secondaryColor;
-  border-top: $mainColor solid 10px;
   border-radius: 1px;
   display: flex;
   flex-direction: column;

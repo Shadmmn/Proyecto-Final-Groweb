@@ -19,28 +19,26 @@ $fontS: .5em;
     flex-direction: column;
     align-items: center; 
 }
-.footer a{
-    color: black;
-    text-decoration: none;
-}
 .fut {
     bottom: 0;
+    background-color: #22283115;
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-grow: 1;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    border-bottom: #222831 solid 2px;
     a{
-        margin: 0% 15%;
+        width: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        padding: 5px 0;
     }
-a:hover{
-    width: auto;
-    border-radius: 5px;
 }
-    img:hover{
-        background-color: #393E4620;
-        border-radius: 10px;
-    }
+.fut a:hover{
+    border-radius: 2px;
+    background-color: #22283120;
 }
 .fut-logo {
     width: 5em;
@@ -111,9 +109,9 @@ background-color: white;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 10% 4%;
         flex-direction: row;
         width: 100%;
+        background-color: #393E4620;
     }
     .fut-logo{
         width: 4em;
