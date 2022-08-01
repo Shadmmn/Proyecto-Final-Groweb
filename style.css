@@ -638,7 +638,7 @@ body {
     .header-qs h2 {
       font-size: 2em; }
   .aside-qS {
-    padding: 5% 15%;
+    padding: 10% 15%;
     text-align: center;
     color: #393E46; }
     .aside-qS a {
@@ -654,7 +654,7 @@ body {
     justify-content: center;
     flex-wrap: wrap; }
   .card {
-    margin: 2%;
+    margin: 0% 2%;
     width: 40%;
     height: 60%;
     border: #393E46 solid 20px; }
