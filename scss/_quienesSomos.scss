@@ -49,6 +49,10 @@ padding: 10%;
     height: 60%;
     border: $mainColor solid 20px;
 }
+.card2{
+    @extend .card;
+    margin-bottom: 2%;
+}
 .art-nt-img{
     width: 100%;
     height: 100%;

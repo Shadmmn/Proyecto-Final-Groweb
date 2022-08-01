@@ -653,11 +653,13 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap; }
-  .card {
+  .card, .card2 {
     margin: 0% 2%;
     width: 40%;
     height: 60%;
     border: #393E46 solid 20px; }
+  .card2 {
+    margin-bottom: 2%; }
   .art-nt-img {
     width: 100%;
     height: 100%;
@@ -693,7 +695,7 @@ body {
     color: #393E46; }
   .cards-qs {
     background-color: #393E46; }
-  .card {
+  .card, .card2 {
     background-color: #222831;
     color: #F1F6F9;
     padding: 5%;
