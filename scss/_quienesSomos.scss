@@ -10,6 +10,7 @@ body{
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif
 
 }
+@media screen and (min-width:600px) {
 .main-qs{
     width: 100;
     margin-top: 5em;
@@ -23,7 +24,6 @@ padding: 10%;
     font-size: 2em;
 }
 }
-
 .aside-qS{
     padding: 0% 15%;
     text-align: center;
@@ -73,10 +73,59 @@ padding: 10%;
     font-size: 1em;
     a{
     text-decoration: none;
-    color: $secondaryColor;
+    color: $secondaryColor;}
     a:hover{
     cursor: pointer;
     text-decoration: underline;
+    }
 }
+}
+@media screen and (max-width:600px) {
+body{
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header-qs{
+    padding: 10%;
+    margin-bottom: 10%;
+}
+.main-qs{
+    color: $mainColor;
+}
+.cards-qs{
+background-color: $mainColor;
+}
+.card{
+    background-color: $secondaryColor;
+    color: $keyColor;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+.art-nt-img{
+    width: 100%;
+} 
+.art-tit{
+    padding: 2%;
+    font-size: 1.5em;
+    background-color: $mainColor;
+}
+.art-text{
+    font-size: 1em;
+    padding: 10% 5%;
+    a{
+        color: $keyColor;
+        background-color: $mainColor;
+    }
+}
+.aside-qS{
+    color: $mainColor;
+    padding: 15%;
+    a{
+        color: $secondaryColor;
+        text-decoration: none;
+        border-radius: 5px;
+        background-color: $mainColor;
+        color: $keyColor;
+        padding: 0 2%;
+    }
 }
 }
