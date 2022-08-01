@@ -24,6 +24,7 @@ $fontS: 1em;
     background-color: $secondaryColor;
     width: 100%;
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     flex-grow: 1;
     flex-wrap: nowrap;
@@ -41,8 +42,10 @@ $fontS: 1em;
 }
 .right-nt {
 @extend .left-nt;
+width: 100%;
 text-align: start;
 background-color: $mainColor;
+
 }
 .tit-mob-nt{
     display: none;
@@ -68,7 +71,7 @@ background-color: $mainColor;
     align-items: center;
     flex-direction: column;
     background-color: $secondaryColor;
-    margin: 1% 0% 10% 0%;
+    margin: 1% 0% 0% 0%;
     color: $keyColor;
     gap: 1%;
     padding: 8%;
@@ -83,7 +86,7 @@ background-color: $mainColor;
 }
 .margins-nt{
     margin-top: 15%;
-    margin-bottom: 15%;
+
 }
 .mobi-car-nT{
     display: none;
@@ -96,6 +99,9 @@ background-color: $mainColor;
 }
 .img-mob-o{
     width: 100%;
+}
+.footer{
+    padding-bottom: 5%;
 }
 }
 
