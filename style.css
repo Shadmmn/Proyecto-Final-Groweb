@@ -346,15 +346,15 @@ body {
     justify-content: center;
     gap: 2%;
     margin: 0%;
-    padding-top: 10%;
-    padding-bottom: 10%; }
+    padding-top: 10%; }
   /*animaciones*/
-  .box {
+  .box, .box2 {
     text-align: center;
     width: 45%;
     color: #F1F6F9;
     animation: anim 1s linear 0s infinite normal forwards;
-    animation-play-state: paused;
+    animation-play-state: paused; }
+  .box2 {
     margin-bottom: 4%; }
   @keyframes anim {
     0% {
@@ -382,7 +382,7 @@ body {
       border-right: #66b2b2 solid 5px;
       border-bottom: #008080 solid 5px;
       border-left: #006666 solid 5px; } }
-  .box:hover {
+  .box:hover, .box2:hover {
     animation-play-state: running; }
   /*animaciones*/
   .tit-serv {
@@ -416,6 +416,7 @@ body {
     background-color: #F1F6F9;
     color: #222831; }
   .acla {
+    padding: 10% 0%;
     color: #F1F6F9;
     text-align: start; } }
 
@@ -425,7 +426,7 @@ body {
     color: #393E46;
     margin: 10% 0% -25% 0%;
     font-size: 1.2em; }
-  .box {
+  .box, .box2 {
     background-color: #222831;
     margin: 3%;
     border-radius: 15px;
