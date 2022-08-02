@@ -44,6 +44,7 @@ $e: #004c4c;
   color: $keyColor;
   animation: anim 1s linear 0s infinite normal forwards;
   animation-play-state: paused;
+  background-color: $secondaryColor
 }
 .box2{
   @extend .box;
