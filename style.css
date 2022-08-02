@@ -34,19 +34,16 @@
     background-color: #393E46; }
   .art-hm, .mgb4 {
     width: 80%;
+    border-radius: 5px;
     color: #F1F6F9;
     background-color: #222831;
     border-radius: 1px;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    padding: 10%;
+    text-align: start;
+    padding: 5%;
     margin-top: 2%;
     font-size: 1em; }
-  .art-hm:from, .mgb4:from {
-    border-top: #393E46 solid 10px; }
-  .art-hm:to, .mgb4:to {
-    border-bottom: #393E46 solid 10px; }
   .mckpimg-home {
     display: flex;
     flex-direction: column;

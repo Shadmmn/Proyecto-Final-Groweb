@@ -44,23 +44,17 @@ $fontS: 1em;
 }
 .art-hm{
   width: 80%;
+  border-radius: 5px;
   color: $keyColor;
   background-color: $secondaryColor;
   border-radius: 1px;
   display: flex;
   flex-direction: column;
-  text-align: center;
-  padding: 10%;
+  text-align: start;
+  padding: 5%;
   margin-top: 2%;
   font-size: $fontS;
 }
-.art-hm:from{
- border-top: $mainColor solid 10px
-}
-.art-hm:to{
-  border-bottom: $mainColor solid 10px;
-}
-
 .mgb4{
   @extend .art-hm;
 }
